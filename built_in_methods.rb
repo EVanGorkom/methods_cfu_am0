@@ -43,7 +43,15 @@
 # https://ruby-doc.org/core-3.1.0/String.html
 # Include comments above each method call explaining the impact and return value of that method.
 
-NEED TO FINISH THIS SECTION!!!
+# The method below "gsub" will check the value of the variable fav_book to see if there are any matches for he value "C" within and then replace them with "M".
+# The return should then replace the capital C's with capital M's. 
+fav_book = "The Count of Monte Cristo"
+puts fav_book.gsub("C", "M")
+
+# The method below will check to the value at the end of the variable "first_pet" to see if the variable's value ends with "r". If it does it will return the boolean "true" and if it is false it will return the boolean "false".
+# The return in this case will be true since the name Vader does end with a lower case r.
+first_pet = "Vader"
+puts first_pet.end_with?("r")
 
 # EXAMPLE
 # The start_with? method is called on the first_name variable, which stores the string object "Jeff". 
